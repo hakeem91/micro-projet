@@ -1,0 +1,101 @@
+
+.liste a{
+  text-decoration:none;
+  border-bottom:underline red;
+  color:white;
+}
+h1{
+  color:red;
+  text-align:center;
+  
+}
+
+h1:hover{
+  border-style: solid;
+}
+h2:hover{
+   text-decoration: underline;
+  color:red;
+}
+ .liste p{
+   margin-right:10px;
+  display:inline;
+}
+.liste{
+  height:50px;
+  color:white;
+  background-color:black;
+  text-align:center;
+}
+h2{
+  text-align:center;
+}
+.gauche{
+  float:left;
+  width:50%;
+}
+
+.droite{
+  width:50%;
+  float:right;
+}
+.premier {
+  border-top: 5px solid black;
+  background-color:Teal;
+
+}
+.gauche img{
+  margin-left:50px
+}
+.gauche p{
+   float:right;
+  width:45%;
+  margin-top:-300px;
+  margin-right:5px;
+  
+}
+
+
+img{
+  height:350px;
+  width:300px;
+}
+
+.deuxieme{
+border-top:5px solid black;
+background-color: Cadetblue;
+  }
+
+
+.trois{
+  border-top:5px solid black;
+  background-color:Teal;
+}
+
+
+
+.quatre{
+  border-top:5px solid black;
+background-color: Cadetblue;
+}
+.droite p{
+  float:right;
+  width:45%;
+  margin-top:-300px;
+  margin-right:5px;
+}
+
+.droite img{
+  margin-left:50px
+}
+.cinq{
+   border-top:5px solid black;
+  background-color:Teal;
+}
+.six{
+   border-top:5px solid black;
+background-color: Cadetblue;
+}
+#sport{
+  color:red;
+}

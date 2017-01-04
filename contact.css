@@ -1,0 +1,41 @@
+h1{
+  color:red;
+  text-align:center;
+
+}
+
+h1:hover{
+  border-style: solid;
+}.liste a{
+  text-decoration:none;
+  border-bottom:underline red;
+  color:white;
+}
+
+body{
+  background-color:Dodgerblue;
+}
+
+.tout{
+  text-align:center;
+  
+}
+h2:hover{
+   text-decoration: underline;
+}
+ .liste p{
+   margin-right:10px;
+  display:inline;
+}
+.liste{
+  height:50px;
+  color:white;
+  background-color:black;
+  text-align:center;
+}
+.contact{
+  text-align:center;
+}
+#cont{
+  color:red;
+}

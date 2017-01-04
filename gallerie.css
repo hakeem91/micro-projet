@@ -1,0 +1,52 @@
+h1{
+  color:red;
+  text-align:center;
+  
+}
+h1:hover{
+  border-style: solid;
+}
+h2:hover{
+   text-decoration: underline;
+}
+ .liste p{
+   margin-right:10px;
+  display:inline;
+}
+
+.liste{
+  height:50px;
+  color:white;
+  background-color:black;
+  text-align:center;
+}
+img {
+  height:200px;
+  width:200px;
+}
+.liste a{
+  text-decoration:none;
+  border-bottom:underline red;
+  color:white;
+}
+.Film{
+  float:left;
+  width:33%;
+  border-style:solid;
+  background-color:blue;
+}
+.Livres{
+  float:left;
+  width:33%;
+  margin-right:439px;
+}
+.jeux{
+  border-style:solid;
+  width:33%;
+  float:right;
+  margin-top:-2735px;
+  background-color:blue;
+}
+#gal{
+  color:red;
+}

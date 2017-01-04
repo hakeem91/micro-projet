@@ -1,0 +1,52 @@
+.page{
+  width:780px;
+  margin:auto;
+  font-size:16px;
+  border:4px solid;
+  background-color:#FFFFFF
+}
+.melange{
+  height:250px;
+}
+.texte{
+  float:left;
+}
+.moi{
+  
+  height:300px;;
+float:right;
+}
+.tout{
+  margin-bottom:70px;
+}
+.gauche{
+  float:left;
+  
+}
+.droite{
+  margin-left:150px;
+  margin-top:37px;
+}
+h2:hover{
+  color:red;
+}
+h2{
+  color:blue;
+  border-bottom:solid;
+}
+#trueg p{
+  margin-bottom:37px;
+}
+#trueg1 p{
+  margin-bottom:32px;
+}
+#r p{
+  
+  margin-bottom:60px;
+}
+#d p{
+  margin-bottom:50px;
+}
+body{
+  background-color:#CCCCCC;
+}

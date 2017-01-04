@@ -1,0 +1,52 @@
+h1{
+  color:red;
+  text-align:center;
+  
+}
+h1:hover{
+  border-style: solid;
+}
+h2:hover{
+   text-decoration: underline;
+}
+ .liste p{
+   margin-right:10px;
+  display:inline;
+}
+
+.liste{
+  height:50px;
+  color:white;
+  background-color:black;
+  text-align:center;
+}
+img {
+  height:100px;
+  
+ 
+}
+.liste a{
+  text-decoration:none;
+  border-bottom:underline red;
+  color:white;
+}
+ th{
+  border: 1px solid black;
+}
+table
+{
+    border-collapse: collapse; 
+}
+td
+{
+    border: 1px solid black;
+}
+tr{
+  background-color:red;
+}
+caption{
+  background-color:yellow;
+}
+#rea{
+  color:red
+}
