@@ -1,0 +1,49 @@
+
+h1{
+  color:red;
+  text-align:center;
+  
+}
+h1:hover{
+  border-style: solid;
+}
+h2:hover{
+   text-decoration: underline;
+}
+ .liste p{
+   margin-right:10px;
+  display:inline;
+}
+
+.liste{
+  height:50px;
+  color:white;
+  background-color:black;
+  text-align:center;
+}
+ 
+.photo{
+  float:left;
+  width: 30%;
+  background-color:#FFFF00;
+  height:900px;
+}
+
+.centre{
+  float:left;
+  width:70%;
+  height:900px;
+  background-color:#FFFF00;
+  
+}
+p{
+  color:5A3434;
+}
+.liste a{
+  text-decoration:none;
+  border-bottom:underline red;
+  color:white;
+}
+#accueil{
+  color:red;
+}
