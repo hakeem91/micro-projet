@@ -1,3 +1,9 @@
+
+body{
+  background-image: url(image/blue.bmp);
+  margin:0;
+height:0px
+}
 h1{
   color:red;
   text-align:center;
@@ -20,33 +26,61 @@ h2:hover{
   background-color:black;
   text-align:center;
 }
-img {
-  height:200px;
+
+.Film img{
+    height:200px;
+  width:200px;
+}
+.jeux img{
+    height:200px;
+  width:200px;
+}
+.Livres img{
+    height:200px;
   width:200px;
 }
 .liste a{
   text-decoration:none;
-  border-bottom:underline red;
+  
   color:white;
 }
 .Film{
   float:left;
   width:33%;
   border-style:solid;
-  background-color:blue;
+  
+  margin-top:-22px;
 }
-.Livres{
-  float:left;
-  width:33%;
-  margin-right:439px;
-}
+
 .jeux{
   border-style:solid;
   width:33%;
   float:right;
-  margin-top:-2735px;
-  background-color:blue;
+  margin-top:-2737px;
+ 
+}
+.Livres{
+  margin-left:700px;
 }
 #gal{
   color:red;
+}
+footer{
+  text-align:center;
+  background-color:black;
+  color:white;
+}
+.rond{
+  height:30px;
+}
+.map{
+  height:250px;
+  width:300px;
+}
+ul{
+  list-style:none;
+
+}
+p,td,tr,b,span,a{
+  font-size:18px;
 }

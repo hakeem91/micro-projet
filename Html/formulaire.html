@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css"
+ href="../formulaire.css">
+<title>un site</title>
+
+</head>
+<body>
+  <h1>
+    Formulaire de contact
+  </h1>
+<div class="form">
+  <form action="http://www.iut-fbleau.fr/sitebp/get.php" method="get"> 
+        <p>
+          <b>Nom</b><br>
+        
+          <span><label for="Nom"> </label>
+  <input type="text"  name="nom" id="Nom" required>
+  </span>
+        </p>
+        <p>
+      <b>Prénom</b><br>    
+  
+          <span><label for="Prénom"></label>
+  <input type="text" name="Prénom" id="Prénom" required>
+  </span>
+<p>
+  
+  <p>
+    <b>Société</b><br>
+  <span>
+    <label for="Société"></label>
+    <input type="text" name="Société" id="Société" required>
+    </span>
+  </p>  
+    <p>
+      <b>Mail</b><br>
+      <span><label for="mail"></label>
+        <input type="text" name="mail" id="mail" required> 
+      </span>
+</p>     
+  <p>
+    
+    <b>Téléphone portable</b><br>
+    <span><label for="tel"></label>
+      <input type="text" name="tel" id="tel" pattern="^0[67]\d{8}$" title="Numéro à 10 chiffres sans espace et commençant par 06 ou 07" required> 
+  </span>
+</p>
+<p>
+  
+
+  <b>Message</b><br>
+     
+     
+     <span><TEXTAREA name="message"  cols=40 title="Facultatif"> </TEXTAREA>
+
+    <input type="reset" value="Reset" title="Reinitialise tout"> 
+</span>
+</p>
+<br>
+
+<input type="submit" value="Envoyer">
+
+  </div>
+  </form>
+
+
+</body>
+</html>

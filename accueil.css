@@ -1,4 +1,9 @@
 
+body{
+  background-image: url(image/blue.bmp);
+  margin:0;
+height:0px
+}
 h1{
   color:red;
   text-align:center;
@@ -6,9 +11,11 @@ h1{
 }
 h1:hover{
   border-style: solid;
+ 
 }
 h2:hover{
    text-decoration: underline;
+  color:red;
 }
  .liste p{
    margin-right:10px;
@@ -25,7 +32,7 @@ h2:hover{
 .photo{
   float:left;
   width: 30%;
-  background-color:#FFFF00;
+  background-color:cadetblue;
   height:900px;
 }
 
@@ -33,17 +40,41 @@ h2:hover{
   float:left;
   width:70%;
   height:900px;
-  background-color:#FFFF00;
+  background-color:cadetblue;
   
 }
-p{
-  color:5A3434;
-}
+
 .liste a{
   text-decoration:none;
-  border-bottom:underline red;
+ 
   color:white;
+}
+a{
+  text-decoration:none;
+ 
+  color:blue;
 }
 #accueil{
   color:red;
 }
+footer{
+  text-align:center;
+  background-color:black;
+  color:white;
+}
+.rond{
+  height:30px;
+}
+.map{
+  height:250px;
+  width:300px;
+}
+iframe{
+  width:560px;
+  height:315px;
+  
+}
+p,td,tr,b,span,a{
+  font-size:18px;
+}
+

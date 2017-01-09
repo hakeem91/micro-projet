@@ -1,3 +1,9 @@
+
+body{
+  background-image: url(image/blue.bmp);
+  margin:0;
+height:0px
+}
 h1{
   color:red;
   text-align:center;
@@ -8,18 +14,25 @@ h1:hover{
   border-style: solid;
 }.liste a{
   text-decoration:none;
-  border-bottom:underline red;
+
   color:white;
 }
 
-body{
-  background-color:Dodgerblue;
+.photo{
+  float:left;
+  width: 30%;
+  background-color:cadetblue;
+  height:900px;
 }
 
-.tout{
-  text-align:center;
-  
+.centre{
+  float:left;
+  width:70%;
+  height:900px;
+  background-color:cadetblue;
+ 
 }
+
 h2:hover{
    text-decoration: underline;
 }
@@ -38,4 +51,25 @@ h2:hover{
 }
 #cont{
   color:red;
+}
+footer{
+  text-align:center;
+  background-color:black;
+  color:white;
+}
+.rond{
+  height:30px;
+}
+.map{
+  height:250px;
+  width:300px;
+  
+}
+p,td,tr,b,span,a{
+  font-size:18px;
+}
+a{
+  text-decoration:none;
+ 
+  color:blue;
 }

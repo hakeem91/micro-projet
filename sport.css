@@ -1,8 +1,14 @@
 
+body{
+  background-image: url(image/blue.bmp);
+margin:0;
+height:0px
+}
 .liste a{
   text-decoration:none;
-  border-bottom:underline red;
+  
   color:white;
+  font-size:18px;
 }
 h1{
   color:red;
@@ -44,6 +50,10 @@ h2{
   background-color:Teal;
 
 }
+.premier img{
+   height:350px;
+  width:300px;
+}
 .gauche img{
   margin-left:50px
 }
@@ -56,27 +66,34 @@ h2{
 }
 
 
-img{
-  height:350px;
-  width:300px;
-}
+
 
 .deuxieme{
 border-top:5px solid black;
 background-color: Cadetblue;
   }
-
+.deuxieme img{
+   height:350px;
+  width:300px;
+}
 
 .trois{
   border-top:5px solid black;
   background-color:Teal;
 }
-
+.trois img{
+   height:350px;
+  width:300px;
+}
 
 
 .quatre{
   border-top:5px solid black;
 background-color: Cadetblue;
+}
+.quatre img{
+   height:350px;
+  width:300px;
 }
 .droite p{
   float:right;
@@ -92,10 +109,37 @@ background-color: Cadetblue;
    border-top:5px solid black;
   background-color:Teal;
 }
+.cinq img{
+   height:350px;
+  width:300px;
+}
 .six{
    border-top:5px solid black;
 background-color: Cadetblue;
 }
+.six img{
+   height:350px;
+  width:300px;
+}
 #sport{
   color:red;
 }
+footer{
+  text-align:center;
+  background-color:black;
+  color:white;
+}
+.rond{
+  height:30px;
+}
+.map{
+  height:250px;
+  width:300px;
+}
+
+a{
+  text-decoration:none;
+ 
+  color:blue;
+}
+

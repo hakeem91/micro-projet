@@ -1,3 +1,9 @@
+
+body{
+  background-image: url(image/blue.bmp);
+  height:0px;
+    margin:0;
+}
 h1{
   color:red;
   text-align:center;
@@ -27,7 +33,7 @@ img {
 }
 .liste a{
   text-decoration:none;
-  border-bottom:underline red;
+  
   color:white;
 }
  th{
@@ -42,11 +48,35 @@ td
     border: 1px solid black;
 }
 tr{
-  background-color:red;
+  background-color:cadetblue;
 }
 caption{
   background-color:yellow;
 }
 #rea{
-  color:red
+  color:red;
+}
+footer{
+  text-align:center;
+  background-color:black;
+  color:white;
+     height:119px
+}
+.rond{
+  height:30px;
+}
+.map{
+  height:250px;
+  width:300px;
+}
+td img{
+  width:130px
+}
+p,td,tr,b,span,a{
+  font-size:18px;
+}
+a{
+  text-decoration:none;
+ 
+  color:blue;
 }
